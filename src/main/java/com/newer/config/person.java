@@ -3,6 +3,16 @@ package com.newer.config;
 public class person {
 	private Integer id;
 	private String name;
+    private String pwd;
+    
+	
+	public String getPwd() {
+		return pwd;
+	}
+
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
 
 	public Integer getId() {
 		return id;
